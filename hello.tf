@@ -17,5 +17,6 @@ resource "aws_instance" "my_first_node" {
   tags = {
     Name        = "Our_First_node"
     Provisioner = "Terraform"
+    Test        = "yes_no"
   }
 }
